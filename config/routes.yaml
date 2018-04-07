@@ -10,3 +10,6 @@ lucznik:
 wojownik:
    path: /wojownik
    controller: App\Controller\WarriorController::attack
+share:
+   path: /share
+   controller: App\Controller\SocialMediaController::share
