@@ -1,3 +1,12 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+rycerz:
+   path: /rycerz
+   controller: App\Controller\KnightController::attack
+lucznik:
+   path: /lucznik
+   controller: App\Controller\ArcherController::attack
+wojownik:
+   path: /wojownik
+   controller: App\Controller\WarriorController::attack
