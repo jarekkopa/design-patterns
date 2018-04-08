@@ -22,3 +22,8 @@ chicken:
 salami:
    path: /pizza/salami
    controller: App\Controller\PizzaController::salami
+payment:
+   path: /pay/{method}
+   controller: App\Controller\PaymentConttroler::pay
+   requirements:
+       method: 'PayPal|PayU'
