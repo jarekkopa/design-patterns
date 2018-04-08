@@ -13,3 +13,12 @@ wojownik:
 share:
    path: /share
    controller: App\Controller\SocialMediaController::share
+pizza:
+   path: /pizza
+   controller: App\Controller\PizzaController::plain
+chicken:
+   path: /pizza/chicken
+   controller: App\Controller\PizzaController::chicken
+salami:
+   path: /pizza/salami
+   controller: App\Controller\PizzaController::salami
